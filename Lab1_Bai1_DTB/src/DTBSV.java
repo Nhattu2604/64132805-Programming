@@ -14,8 +14,9 @@ public class DTBSV {
         double diemTB = scanner.nextDouble();
 
         
-     
-
+     System.out.println("Họ và tên sinh viên:"+ hoTen);
+     System.out.println("Điểm trung bình sinh viên:"+ diemTB);
+     scanner.close();
 	}
 
 }

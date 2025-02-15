@@ -14,7 +14,8 @@ public class CanBac2 {
         System.out.print("Nhập hệ số c: ");
         double c = scanner.nextDouble();
 
-       
+       double delta = Math.pow(b,2) - 4 * a * c;
+       System.out.print("\nkết quả delta: " + delta);
 
         scanner.close();
     }

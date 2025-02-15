@@ -15,8 +15,14 @@ public class CanBac2 {
         double c = scanner.nextDouble();
 
        double delta = Math.pow(b,2) - 4 * a * c;
-       System.out.print("\nkết quả delta: " + delta);
-
+       System.out.println("\nkết quả delta: " + delta);
+       if(delta >=0){
+    	   double Candelta =Math.sqrt(delta);
+    	   System.out.println("căn delta =" + Candelta);
+       }
+       else {
+    	   System.out.println("Không thể tính căn delta vì delta < 0");
+    	   }
         scanner.close();
     }
 }
